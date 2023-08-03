@@ -1,0 +1,5 @@
+Mẫu này cho phép hai lớp với các giao diện không tương thích hoặc không thể kế thừa lẫn nhau có thể làm việc cùng nhau thông qua một lớp trung gian gọi là Adapter. Adapter chuyển đổi giao diện của một lớp thành một giao diện khác mà các lớp khác có thể sử dụng.
+
+Giả sử chúng ta có một hệ thống hiện đang sử dụng một lớp cũ LegacyPrinter để in thông tin một cách cũ kỹ. Nhưng hệ thống mới muốn sử dụng một lớp mới và hiện đại hơn ModernPrinter, có một phương thức in thông tin theo cách mới.
+
+Vì giao diện của LegacyPrinter và ModernPrinter không tương thích, chúng ta sẽ sử dụng Adapter Pattern để kết nối chúng lại với nhau.
