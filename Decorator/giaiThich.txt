@@ -1,0 +1,3 @@
+Decorator Pattern tách biệt việc thêm chức năng mới vào một đối tượng từ việc triển khai các chức năng đã có. Điều này giúp giữ cho mã nguồn linh hoạt, dễ bảo trì và tránh sự phức tạp khi kế thừa từ nhiều lớp con.
+
+Giả sử chúng ta có một lớp Coffee đại diện cho cà phê và muốn thêm các chức năng như thêm đường, thêm sữa, hoặc thêm bọt sữa mà không thay đổi lớp Coffee gốc. Chúng ta có thể sử dụng Decorator Pattern để thêm các chức năng này.
