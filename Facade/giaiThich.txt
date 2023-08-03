@@ -1,0 +1,3 @@
+Mẫu này cung cấp một giao diện đơn giản để truy cập vào một hệ thống phức tạp, giúp giảm sự phức tạp và tăng tính linh hoạt của mã nguồn. Facade Pattern cung cấp một lớp giao diện đơn giản để tương tác với các phần tử phức tạp bên trong hệ thống, giúp ẩn đi sự phức tạp và hạn chế sự phụ thuộc giữa các thành phần.
+
+Giả sử chúng ta có một hệ thống phức tạp bao gồm nhiều lớp và chức năng phức tạp. Chúng ta muốn cung cấp một giao diện đơn giản để sử dụng các chức năng của hệ thống mà không cần biết chi tiết bên trong. Trong trường hợp này, chúng ta có thể sử dụng Facade Pattern để tạo một lớp trung gian giúp giảm độ phức tạp khi sử dụng hệ thống.
